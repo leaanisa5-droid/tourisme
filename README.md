@@ -9,3 +9,4 @@ projet
                     <td>kinshsa</td>
                     <td>q/sebo c/mont ngafula</td>
             </table>
+            <p>le tourisme permets aux personnes de decouvrir de nouveaux lieux,cultures et paysages.</p>
