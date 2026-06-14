@@ -1,0 +1,102 @@
+# Au<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Destination</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: burlywood;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1{
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        .destinations {
+            display: flex;
+            justify-content: center;
+            gap: 20;
+            margin: 20px;
+        }
+
+        .destination: :hover {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba (0,0,0,0.1);
+            width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .destinations:hover {
+            transform: scale(1.05);
+        }
+        .destination img {
+            width: 100%;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .destination p {
+            color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nos Destinations en Republique Democratique du Congo</h1>
+    <p>Decouvrez les plus beaux endroits a visitez en Republique</p>
+
+     <div class="destinations">
+     <div class="destination">
+    <h2>Kinshasa</h2>
+    <p>La capitale vibrante, avec ses musees, son fleuve majestueux et sa vie culturelle</p>
+    <img src="c:\Users\hp\Pictures\OIP.webp" alt="Kinshasa 1" width="300">
+    <img src="c:\Users\hp\Desktop\Tourisme\OIP.webp" alt="Kinshasa 2" width="300">
+    <img src="c:\Users\hp\Pictures\télécharger (4).webp" alt="Kinshasa 3" width="300">
+    <img src="c:\Users\hp\Downloads\WhatsApp Image 2026-06-08 at 7.13.47 PM.jpeg" alt="Kinshasa 4" width="300">
+    </div>
+
+    <div class="destination">
+    <h2>Goma</h2>
+    <p>Ville au bord du kivu, proche du volcan Nyiragongo</p>
+    <img src="c:\Users\hp\Pictures\OIP (1).webp" alt="Goma 1" width="300">
+    <img src="c:\Users\hp\Pictures\télécharger (2).webp" alt="Goma 2" width="300">
+    <img src="c:\Users\hp\Pictures\télécharger (1).webp" alt="Goma 3" width="300">
+    </div>
+
+    <div class="destination">
+    <h2>Lubumbashi</h2>
+    <p>Centre economique et culturel du katanga</p>
+    <img src="c:\Users\hp\Pictures\OIP (7).webp" alt="Lubumbashi 1" width="300">
+    <img src="c:\Users\hp\Pictures\OIP (8).webp" alt="Lubumbashi 1" width="300">
+    <img src="c:\Users\hp\Pictures\télécharger (9).webp" alt="Lubumbashi 1" width="300">
+    </div>
+    <div>
+        <h2>Mwanda</h2>
+        <p>Des meilleurs endroits pour le tourisme</p>
+        <img src="c:\Users\hp\Downloads\50-ans-de-musique-congolaise-11.jpg" alt="Mwanda 1" width="300">
+        <img src="c:\Users\hp\Downloads\OIP.webp" alt="Mwanda 1" width="300">
+        <img src="c:\Users\hp\Downloads\télécharger.webp" alt="Mwanda 1" width="300">
+
+    </div>
+    <script>
+  function afficherDestination(nom) {
+    // Affiche le nom de la destination cliquée
+    document.getElementById("resultat").innerText = "Vous avez choisi : " + nom;
+  }
+
+  function changerCouleur() {
+    // Change la couleur du bloc destination
+    const bloc = document.getElementById("blocDestination");
+    bloc.style.backgroundColor = "lightblue";
+  }
+</script>
+</body>
+</html>to detect text files and perform LF normalization
+* text=auto
